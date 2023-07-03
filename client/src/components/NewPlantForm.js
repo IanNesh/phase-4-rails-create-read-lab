@@ -13,9 +13,9 @@ function NewPlantForm({ onAddPlant }) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: name,
-        image: image,
-        price: price,
+        name: "Aloe",
+        image: "./images/aloe.jpg",
+        price: 11.50,
       }),
     })
       .then((r) => r.json())
